@@ -8,13 +8,6 @@ from matplotlib import pyplot as plt
 img = cv2.imread('mockup-sign.jpg')
 # imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-# LIVE FEED WEB CAM
-path = "http://192.168.0.122:8080/video"
-# "0" for WebCam
-cap = cv2.VideoCapture(path)
-cap.set(3, 500)
-cap.set(4, 500)
-
 # THRESHOLDING IMAGE
 # ret, thresh1 = cv2.threshold(imgGray, 120, 255, cv2.THRESH_BINARY)
 # cv2.imshow("Thres", thresh1)
