@@ -5,7 +5,7 @@ import easyocr as eo
 from matplotlib import pyplot as plt
 
 # READ IMAGE
-img = cv2.imread('mockup-sign.jpg')
+img = cv2.imread('school-zone.png')
 # imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # THRESHOLDING IMAGE
@@ -49,6 +49,7 @@ for t in text:
     # print(r_bbox, r_bbox1)
 
     cv2.rectangle(img, (int(l_bbox), int(l_bbox1)), (int(r_bbox), int(r_bbox1)), (0, 255, 0),2)
+    cv2.putText(img, text, (int(l_bbox), int(l_bbox1)), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0 ,0), 2)
 
 cv2.imshow("Out", img)
 cv2.waitKey(0)
