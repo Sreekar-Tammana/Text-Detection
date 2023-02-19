@@ -5,7 +5,7 @@ import easyocr as eo
 from matplotlib import pyplot as plt
 
 # READ IMAGE
-img = cv2.imread('school-zone.png')
+img = cv2.imread('catalog.png')
 # imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # THRESHOLDING IMAGE
@@ -13,8 +13,8 @@ img = cv2.imread('school-zone.png')
 # cv2.imshow("Thres", thresh1)
 
 # INCREASE IMAGE CONTRAST
-alpha = 3 # Contrast control (1.0-3.0)
-beta = 10 # Brightness control (0-100)
+# alpha = 3 # Contrast control (1.0-3.0)
+# beta = 10 # Brightness control (0-100)
 # cv2.convertScaleAbs(img, alpha=alpha, beta=beta)
 
 # adjusted = cv2.convertScaleAbs(thresh1, alpha=alpha, beta=beta)
