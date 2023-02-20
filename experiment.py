@@ -3,6 +3,8 @@ import cv2
 import numpy as np
 import easyocr as eo
 from matplotlib import pyplot as plt
+from googletrans import Translator
+
 
 # READ IMAGE
 img = cv2.imread('catalog.png')
@@ -34,6 +36,13 @@ reader = eo.Reader(['en'], gpu=False)
 
 # DETECT TEXT IN IMAGE
 text = reader.readtext(img)
+
+# TEXT TRANSLATOR
+translator = Translator()
+for i in text:
+    print(translator.detect(i[1]))
+    print(translator.translate(i[1]))
+    print()
 
 # DRAW BOUNDING BOX
 for t in text:
