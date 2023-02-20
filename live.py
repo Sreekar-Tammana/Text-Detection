@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import easyocr as eo
 from matplotlib import pyplot as plt
+from googletrans import Translator
 
 # LIVE FEED WEB CAM
 path = "http://192.168.0.122:8080/video"
