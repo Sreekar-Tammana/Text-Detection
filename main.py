@@ -1,15 +1,23 @@
 # IMPORT LIBRARIES
 import cv2
 import easyocr as eo
+from googletrans import Translator
 
 # READ IMAGE
-img = cv2.imread('catalog.png')
+img = cv2.imread('tel.jpg')
 
 # INSTANCE FOR TEXT DETECTOR
 reader = eo.Reader(['en'], gpu=False)
 
 # DETECT TEXT IN IMAGE
 text = reader.readtext(img)
+
+# TEXT TRANSLATOR
+translator = Translator()
+for i in text:
+    print(translator.detect(i[1]))
+    print(translator.translate(i[1]))
+    print()
 
 # DRAW BOUNDING BOX
 for t in text:

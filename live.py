@@ -23,8 +23,8 @@ while True:
     # cv2.imshow("Thres", thresh1)
 
     # INCREASE IMAGE CONTRAST
-    alpha = 3 # Contrast control (1.0-3.0)
-    beta = 10 # Brightness control (0-100)
+    alpha = 3  # Contrast control (1.0-3.0)
+    beta = 10  # Brightness control (0-100)
     # cv2.convertScaleAbs(img, alpha=alpha, beta=beta)
 
     # adjusted = cv2.convertScaleAbs(thresh1, alpha=alpha, beta=beta)
@@ -45,6 +45,13 @@ while True:
     # DETECT TEXT IN IMAGE
     text = reader.readtext(img)
 
+    # TEXT TRANSLATOR
+    translator = Translator()
+    for i in text:
+        print(translator.detect(i[1]))
+        print(translator.translate(i[1]))
+        print()
+
     # DRAW BOUNDING BOX
     for t in text:
         print(t)
@@ -53,13 +60,11 @@ while True:
         l_bbox1 = bbox[0][1]
         r_bbox = bbox[2][0]
         r_bbox1 = bbox[2][1]
-        # print((bbox[0][0]))
-        # print(tuple(bbox[2]))
-        # print(l_bbox, l_bbox1)
-        # print(r_bbox, r_bbox1)
 
-        cv2.rectangle(img, (int(l_bbox), int(l_bbox1)), (int(r_bbox), int(r_bbox1)), (0, 255, 0),2)
-        cv2.putText(img, text, (int(l_bbox), int(l_bbox1)), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0 ,0), 2)
+        cv2.rectangle(img, (int(l_bbox), int(l_bbox1)),
+                      (int(r_bbox), int(r_bbox1)), (0, 255, 0), 2)
+        cv2.putText(img, text, (int(l_bbox), int(l_bbox1)),
+                    cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 2)
 
     # cv2.imshow("Out", img)
     # cv2.waitKey(0)
