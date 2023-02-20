@@ -59,6 +59,7 @@ while True:
         # print(r_bbox, r_bbox1)
 
         cv2.rectangle(img, (int(l_bbox), int(l_bbox1)), (int(r_bbox), int(r_bbox1)), (0, 255, 0),2)
+        cv2.putText(img, text, (int(l_bbox), int(l_bbox1)), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0 ,0), 2)
 
     # cv2.imshow("Out", img)
     # cv2.waitKey(0)
