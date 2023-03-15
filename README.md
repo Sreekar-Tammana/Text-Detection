@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="text detection" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o8ktkhMbaMFuan5gBKxi9Q.png" width="125" /
+    <img alt="text detection" src="https://pyimagesearch.com/wp-content/uploads/2020/05/tesseract_text_localization_with_min_conf.png" width="200" /
 </p>
 <h1 align="center">Text Detection using EasyOCR🔠</h1>
 
