@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="text detection" src="[https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2148920040/settings_images/nEZZ3YteRNa9K2qyxAx1_OCR.gif](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o8ktkhMbaMFuan5gBKxi9Q.png)" width="125" /
+    <img alt="text detection" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o8ktkhMbaMFuan5gBKxi9Q.png" width="125" /
 </p>
 <h1 align="center">Text Detection using EasyOCR🔠</h1>
 
