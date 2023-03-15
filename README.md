@@ -1,8 +1,7 @@
 <p align="center">
-    <img alt="text detection" src="(https://user-images.githubusercontent.com/42037409/225224805-5200da78-23d8-4b4f-8986-6a41d07d9f21.jpeg)" width="125" /
+    <img alt="text detection" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2148920040/settings_images/nEZZ3YteRNa9K2qyxAx1_OCR.gif" width="125" /
 </p>
 <h1 align="center">Shape Detection OpenCV✨️</h1>
-![inbox_3356250_2b9f48419fc76c85096cac391c613af8_ocr_2 (1)](https://user-images.githubusercontent.com/42037409/225224805-5200da78-23d8-4b4f-8986-6a41d07d9f21.jpeg)
 
 ## 📷 Screenshots
 ![Screenshot (104)](https://user-images.githubusercontent.com/42037409/205431892-5f8c2bbf-e26f-465b-a197-d805eab39bf1.png)
