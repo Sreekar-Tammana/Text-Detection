@@ -1,7 +1,8 @@
 <p align="center">
-    <img alt="text detection" src="[https://user-images.githubusercontent.com/42037409/205431497-6b66ba1b-1687-4ac3-b15b-34c33ca01e52.png](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F3356250%2F2b9f48419fc76c85096cac391c613af8%2Focr_2.jpeg?generation=1602735620191011&alt=media)" width="125" /
+    <img alt="text detection" src="(https://user-images.githubusercontent.com/42037409/225224805-5200da78-23d8-4b4f-8986-6a41d07d9f21.jpeg)" width="125" /
 </p>
 <h1 align="center">Shape Detection OpenCV✨️</h1>
+![inbox_3356250_2b9f48419fc76c85096cac391c613af8_ocr_2 (1)](https://user-images.githubusercontent.com/42037409/225224805-5200da78-23d8-4b4f-8986-6a41d07d9f21.jpeg)
 
 ## 📷 Screenshots
 ![Screenshot (104)](https://user-images.githubusercontent.com/42037409/205431892-5f8c2bbf-e26f-465b-a197-d805eab39bf1.png)
